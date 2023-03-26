@@ -7,7 +7,7 @@ import {
 
 const Feed = () => {
   return (
-    <div class="flex flex-col items-center space-y-2">
+    <div class="flex flex-col items-center space-y-2 px-1">
       <div class="rounded-lg overflow-hidden shadow-md py-2 space-y-1">
         <div class="flex items-center space-x-2 px-2">
           <img src="https://placehold.co/10x10" class="rounded-full" alt="" />
