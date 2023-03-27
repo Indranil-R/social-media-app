@@ -20,7 +20,7 @@ const Posts = [
 
 const Feed = () => {
   return (
-    <div class="flex flex-col items-center space-y-2">
+    <div class="flex flex-col items-center space-y-2 my-2"> 
       {Posts.map((postData) => (
         <Post postData={postData} key={postData.username} />
       ))}

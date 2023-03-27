@@ -11,7 +11,7 @@ const Post = ({ postData }) => {
     setIsLiked(!isLiked);
   }
   return (
-    <div class="rounded-lg overflow-hidden shadow-md py-2 space-y-1">
+    <div class="rounded-lg overflow-hidden shadow-md py-2 space-y-1  border-gray-400 border">
       <div class="flex items-center space-x-2 px-2">
         <img src="https://placehold.co/10x10" class="rounded-full" alt="" />
         <p>{postData.username}</p>
